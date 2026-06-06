@@ -1,0 +1,22 @@
+{
+  "name": "نظام إدارة مكتب المحاماة",
+  "short_name": "مكتب المحاماة",
+  "description": "نظام متكامل لإدارة مكاتب المحاماة",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#f8f9fc",
+  "theme_color": "#1a3a5c",
+  "orientation": "portrait-primary",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    { "src": "/icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    { "name": "القضايا",    "url": "/cases",    "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }] },
+    { "name": "الموكلون",  "url": "/clients",  "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }] },
+    { "name": "الجلسات",   "url": "/sessions", "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }] }
+  ]
+}
